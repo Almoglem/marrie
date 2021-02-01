@@ -1,0 +1,28 @@
+body {
+    background-image: url('bg.jpg');
+    color:whitesmoke;
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+    font-size: x-large;
+    text-shadow: 1px 1px 2px #d4c47b, 0 0 25px #d4c47b, 0 0 5px #d4c47b;
+}
+
+h1 {font-size: 60px; margin: 0%;}
+
+table {margin: auto;}
+
+.cell {width:47px; height:47px;text-align: center; border-radius: 10%}
+.cell img {width:29px; height: auto;}
+.floor {background-color: #85a3a19d}
+.wall {background-color: #f0c8cfa9}
+
+.hidden {display: none;}
+
+.restart {margin-left: 25%;}
+
+.end-screen{
+    position: absolute;
+    top: 50%;
+    left: 45%;
+    font-size: 60px;
+}

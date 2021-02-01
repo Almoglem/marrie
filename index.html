@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>Cakes</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body onkeyup="handleKey(event)" onload="initGame()">
+  <h1>"Let me eat cakes"</h1>
+  <span class="collect-count"> Collect count: </span>
+  <span class="restart" onclick="startGame()"> start </span>
+  <table>
+    <tbody class="board"></tbody>
+  </table>
+  <div class="end-screen hidden"> Victory!</div>
+  <script src="js/app.js"></script>
+  <script src="js/util.js"></script>
+</body>
+
+</html>
