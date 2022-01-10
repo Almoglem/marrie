@@ -20,6 +20,8 @@ table {margin: auto;}
 
 .restart {margin-left: 25%;}
 
+.cursor-pointer{cursor: pointer;}
+
 .end-screen{
     position: absolute;
     top: 50%;
